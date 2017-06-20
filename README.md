@@ -1,8 +1,15 @@
 Reproductor de historias multimedia.
 
+Requiere:
+- Python 3.x
+- Pyglet (pip install pyglet)
+- AVBin
+
 El contenido se divide en paginas.
 
 Cada pagina contiene texto, imagenes, sonidos, musica y video (los dos últimos pendientes de implementacion)
+
+Al acceder a una pagina se reproduce el sonido y se dibuja el texto y la imagen en pantalla.
 
 Solo acepta formatos texto .txt, sonido .ogg, imagen .png
 
